@@ -25,9 +25,9 @@ c=c+1
 let p=pic[c];
 
 document.getElementById("slider").src = p;
-if(c==3)
+if(c==pic.length-1)
 {
-	c=-1;
+	c=0;
 }
 }
 function preImg()
